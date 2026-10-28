@@ -81,6 +81,11 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 
 @media (min-width:1000px){.center .process p{white-space:nowrap}}
 
+/* Desktop: мгновенный красный hover для текста и овала Telegram */
+@media (min-width:820px) and (hover:hover) and (pointer:fine){
+  .tg:hover{color:#FF0000;border-color:#FF0000;transition:none}
+}
+
 /* mobile */
 @media (max-width:819px){
   .page{padding:20px 16px 110px}
